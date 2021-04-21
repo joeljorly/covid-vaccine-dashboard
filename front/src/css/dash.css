@@ -1,0 +1,331 @@
+.particle {
+    background: #282931;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Varela Round', sans-serif;
+    height: 100vh;
+  }
+  
+.particle canvas {
+    height: 100vh;
+    z-index: -10;
+    position: fixed;
+    top: 0px;
+  }
+  
+.particle a {
+    color: #bbbbc4;
+    text-decoration: none;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  
+  a:hover {
+    color: #fc3565;
+  }
+  
+.particle h1 {
+    color: #fc3565;
+    padding-bottom: 0px;
+    margin-bottom: 1%;
+  }
+  
+.particle h2 {
+    color: #555560;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+.particle .logo {
+    font-family: 'Monoton', cursive;
+    color: white;
+    font-size: 5rem;
+    margin-top: 100px !important;
+  }
+  
+  .particle .top {
+    padding-bottom: 5rem;
+  }
+  
+  .pulled {}
+  
+  .particle .pulled ul li {
+    list-style: none;
+    margin-right: 2rem;
+    font-size: 1.8rem;
+  }
+  
+  .particle .pulled h1 {
+    color: white;
+    font-size: 3rem;
+  }
+  
+  .pulled ul li span{
+    font-size:1.2rem;
+  }
+  
+  .particle .footer{
+  padding-top:5rem;
+  }
+  
+  .footer p{
+    color:white;
+    font-size:1.2rem;
+  }
+  
+  .particle .visit{
+    color:white;
+    font-size:12px;
+    background:#32333a;;
+    width:146px;
+    padding:6px;
+    border-radius:10px;
+    position:fixed;
+    right:20px;
+  }
+  
+  .particle span.new {
+      background-color: #fc3565;
+      font-weight: 700;
+      padding: .2rem;
+      margin-left: .4rem;
+      color: #fff;
+  }
+  
+  
+  
+  
+  /* Mobile first queries */
+  
+  
+  /* Larger than mobile */
+  
+  @media (min-width: 400px) {}
+  
+  
+  /* Larger than phablet */
+  
+  @media (min-width: 550px) {}
+  
+  
+  /* Larger than tablet */
+  
+  @media (min-width: 750px) {}
+  
+  
+  /* Larger than desktop */
+  
+  @media (min-width: 1000px) {}
+  
+  
+  /* Larger than Desktop HD */
+  
+  @media (min-width: 1200px) {
+    h1 {
+      font-size: 4rem;
+    }
+  }
+
+.outerbody
+{
+    margin: 0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Kumbh Sans', sans-serif;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  padding:0rem 0;
+}
+.card
+{
+	width: 22rem;
+    background: white;
+    border-radius: 1.25rem !important;
+    box-shadow: 0 0 50px #1f1f1f69;
+    transition: 0.4s;
+    cursor: pointer;
+    z-index: 5;
+}
+.card:hover
+{
+	transform: scale(1.05) translateY(-10px);
+	box-shadow: 0 0 40px #101010ab;
+}
+.toppart
+{
+	background-image: url("https://rahulsahofficial.github.io/profile_card_component/images/bg-pattern-card.svg");
+	height: 9rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.toppart img
+{
+	border-radius: 50%;
+    border: 5px solid white;
+    width: 6rem;
+    height: 6rem;
+    transform: translateY(50%);
+}
+.bottompart
+{
+	padding: 5rem 1rem 1rem;
+	text-align: center;
+}
+.bottompart h1
+{
+	color: hsl(229deg 2% 21%);
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.bottompart h1 span
+{
+	color: #847c7c;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+.bottompart p
+{
+	margin: 0.5rem 0 2rem;
+    color: grey;
+    font-size: 0.9rem;
+}
+.detdiv
+{
+	display: flex;
+    justify-content: space-around;
+}
+.eachdiv h2
+{
+	color: #393a40;
+    font-size: 1.1rem;
+    margin-bottom: 0;
+}
+.eachdiv p
+{
+	margin: 0.5rem 0;
+    color: #4c4747;
+    font-weight: 400;
+    font-size: 0.65rem;
+    letter-spacing: 1.3px;
+}
+.attribution
+{
+	position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    color: #e6e2e2;
+    line-height: 1.7;
+    text-align: right;
+    font-size: 1rem;
+}
+.attribution a
+{
+	text-decoration: none;
+    color: #feffff;
+}
+.bgtopcircle,.bgbottomcircle
+{
+	height: 100vh;
+	position: fixed;
+}
+.bgtopcircle
+{
+    top: -10rem;
+    left: 1rem;
+    transform: translate(-50%, -50%);
+}
+.bgbottomcircle
+{
+	bottom: -1rem;
+    right: 4rem;
+    transform: translate(50%, 50%);
+}
+.links
+{
+	position: fixed;
+	bottom: 5rem;
+	right: 2rem;
+}
+.links ul
+{
+	list-style-type: none;
+}
+.links ul li a i
+{
+	font-size: 2rem;
+	color: #dcdcdc;
+	margin: 0.5rem 0;
+	transition: 0.3s;
+	opacity: 0.8;
+}
+.links ul li a i:hover
+{
+	color: white;
+	transform: scale(1.3);
+	opacity: 1;
+}
+@media only screen and (max-width: 500px)
+{
+	.links
+	{
+		display: none;
+	}
+	.card
+	{
+    	width: 20rem;
+	}
+}
+
+
+#logout .contain {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.button {
+  border: 1px solid #fff;
+  padding: 12px 0px;
+  margin-left: 3rem;
+  border-radius: 15px;
+  margin-top: 10rem;
+  cursor: pointer;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -webkit-transition: background-color 100ms linear;
+  -ms-transition: background-color 100ms linear;
+  transition: background-color 100ms linear;
+  width: 6% !important;
+  background-color: white
+}
+
+.button span {
+  color: black;
+  font-size: 18px;
+  font-family: "Quicksand", sans-serif;
+  -webkit-transition: color 100ms linear;
+  -ms-transition: color 100ms linear;
+  transition: color 100ms linear;
+  padding-left: 28px;
+}
+
+.button:hover {
+  background: none;
+}
+.button:hover span {
+  color: white;
+}
