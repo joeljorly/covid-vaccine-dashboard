@@ -4,6 +4,6 @@ A registration portal that sorts individuals based on priority and facilitates t
 The algorithm sorts the individuals based on age group, profession and so on. For instance, the elderly, infants and medical professionals have higher priority compared to other individuals.
 Hence, based on the sorting, each individual receives a token. The token denotes the order of receiving the vaccine.
 
-Client Side : React.js
+Client-Side : React.js
 
-Server Side : Flask 
+Server-Side : Flask 
